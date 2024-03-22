@@ -1,0 +1,37 @@
+#nossa_historia {
+    width: 100%;
+    height: fit-content;
+    background-color: #F3E7E2;
+}
+
+#nossa_historia #content {
+    padding: 24px 96px;
+}
+
+#fundo_nossa_historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F9F3F1;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: -5px 5px 40px grey;
+}
+
+#fundo_nossa_historia #imagem {
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+    max-height: 700px;
+}
+
+#fundo_nossa_historia #texto {
+    width: 100%;
+    height: fit-content;
+    padding: 24px;
+}
+
+#fundo_nossa_historia #texto h1, h2 {
+    color: #4CB853;
+}

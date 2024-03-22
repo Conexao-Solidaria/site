@@ -1,8 +1,28 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font: 'Noto Sans';
-    font-style: normal;
+    gap: 0;
+    font-family: 'Noto Sans';
+    font-style: normal; 
+}
+
+body {
+    background-color: #F3E7E2;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #content {
@@ -12,95 +32,8 @@
     display: flex;
 }
 
-header {
-    width: 100%;
-    height: 120px;
-    position: sticky;
-    z-index: 0;
-    top: 0;
-    background-color: white;
-}
-
-header #content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header #content #logo {
-    width: 138px;
-    height: auto;
-}
-
-header #content #container_botoes {
-    display: flex;
-    flex-direction: row;
-    gap: 1px;
-
-    width: 400px;
-    height: fit-content;
-}
-
-header #content #container_botoes button {
-    font-size: 20px;
-    width: 100%;
-    height: 46px;
-    border-style: none;
-    color: white;
-}
-
-header #content #container_botoes #esquerdo {
-    border-radius: 10px 0px 0px 10px;
-    background-color: #2299AA;
-}
-
-header #content #container_botoes #direito {
-    border-radius: 0px 10px 10px 0px;
-    background-color: #54BF50;
-}
-
 #banner {
     width: 100%;
     height: auto;
 }
 
-#nossa_historia {
-    height: fit-content;
-    width: 100%;
-}
-
-#nossa_historia #content {
-    gap: 24px;
-    align-items: center;
-    padding: 24px 96px;
-    border-style: none;
-}
-
-#nossa_historia #content #titulo_imagem {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 30%;
-    max-width: 506px;
-    height: 100%;
-}
-
-#nossa_historia #content #titulo_imagem h1 {
-    text-align: center;
-    font-size: 64px; 
-}
-
-#nossa_historia #content #texto {
-    height: fit-content;
-    width: 100%;
-    align-content: center;
-}
-
-#nossa_historia #content #texto p {
-    font-size: 24px;
-}
-
-#nossa_historia #content #texto h1 {
-    font-size: 26px;
-    color: #F2811D;
-}
